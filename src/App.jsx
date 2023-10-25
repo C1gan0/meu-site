@@ -1,13 +1,13 @@
 import React from "react";
+import Hero from "./components/Hero";
 import About from "./components/About";
-import Bot from "./components/Bot";
+import Skills from "./components/Skills";
+import Project from "./components/Project";
+import Hireme from "./components/Hireme";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Hireme from "./components/Hireme";
 import Navbar from "./components/Navbar";
-import Project from "./components/Project";
-import Skills from "./components/Skills"
+import Bot from "./components/Bot";
 
 const App = () => {
   return (
@@ -24,3 +24,5 @@ const App = () => {
     </div>
   );
 };
+
+export default App;

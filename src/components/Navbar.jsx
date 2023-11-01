@@ -18,9 +18,13 @@ const Navbar = () => {
   </div>
   <div>
     <ul>
-      <li>
-        <a href=""></a>
+      {
+        menuLinks?.map((menu,i)=>(
+          <li key={i} className="px-6 hover:text-cyan-600" >
+        <a href={menu?.link}>{menu?.name}</a>
       </li>
+        ))
+      }
     </ul>
   </div>
 </div>
